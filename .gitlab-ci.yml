@@ -9,7 +9,7 @@ build:site:
   image: squidfunk/mkdocs-material
   artifacts:
     paths:
-      site
+      - site
   script:
     - mkdocs build
 
