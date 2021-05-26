@@ -7,7 +7,9 @@ stages:
 
 build:site:
   stage: build-docs
-  image: squidfunk/mkdocs-material
+  image:
+    name: squidfunk/mkdocs-material
+    entrypoint: [""]
   artifacts:
     paths:
       - site
