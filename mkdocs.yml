@@ -9,6 +9,7 @@ plugins:
 theme:
     name: material
     logo: assets/logo.svg
+    favicon: assets/logo.png
     palette:
         - scheme: slate
           primary: black
