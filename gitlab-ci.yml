@@ -1,0 +1,27 @@
+image: tiangolo/docker-with-compose:latest
+
+stages:
+  - build
+  - deploy
+
+build:site:
+  stage: build
+  image: squidfunk/mkdocs-material
+  artifacts:
+    paths:
+      site
+  script:
+    - mkdocs build
+
+build:docker:
+  stage: build
+  dependencies:
+    - build:site
+  script:
+    - docker-compose build
+
+deploy:docker:
+  stage: deploy
+  script:
+    - docker-compose down
+    - docker-compose up -d
