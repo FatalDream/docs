@@ -110,6 +110,6 @@ Additionally, you can immagine memory for Java / Minecraft as giving it more roo
 
 Once the modpack has finished installing, just click on it and Minecraft will open up! (It will take a few minutes to load, and that is normal).
 
-Server IP: `fataldream.com`
+Server IP: `modded.fataldream.com`
 
 We're waiting for you ^^
