@@ -1,5 +1,7 @@
 # Source for docs.fataldream.com
 
+Contribution guide is available on [docs.fataldream.com](https://docs.fataldream.com)
+
 **This project requires MkDocs!**
 
 [Install MkDocs](https://www.mkdocs.org/user-guide/installation/)
