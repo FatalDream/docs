@@ -6,6 +6,15 @@ plugins:
           minify_js: true
           htmlmin_opts:
               remove_comments: true
+    - git-revision-date-localized:
+          enabled: !ENV [CI, false]
+          enable_creation_date: true
+          type: date
+    - git-committers:
+          enabled: !ENV [CI, false]
+          repository: FatalDream/docs
+          branch: main
+
 theme:
     name: material
     logo: assets/logo.svg
@@ -24,8 +33,19 @@ theme:
               name: Switch to dark mode
     features:
         - navigation.instant
+        - navigation.instant.progress
+        - navigation.tracking
         - navigation.tabs
         - navigation.top
+        - navigation.sections
+        - navigation.indexes
+        - toc.follow
+        - content.action.edit
+        - content.action.view
+    icon:
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
 
 markdown_extensions:
     - toc:
@@ -37,3 +57,14 @@ markdown_extensions:
 
 extra_css:
     - stylesheets/extra.css
+
+repo_url: https://github.com/FatalDream/docs
+repo_name: FatalDream/docs
+edit_uri: edit/main/docs
+nav:
+    - Welcome: "index.md"
+    - SecondCraft:
+          - SecondCraft/getting-started.md
+          - SecondCraft/server-ip.md
+          - SecondCraft/dynmap.md
+          - SecondCraft/fuel-efficency.md
