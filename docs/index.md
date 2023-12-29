@@ -26,7 +26,7 @@ Here's how:
   - Disable the options with the title `App Installer` and description:
     - `python.exe`
     - `python3.exe`
-    ![GDLauncher Settings](/assets/Python-Disable-App-Execution-Alias.png)
+    ![GDLauncher Settings](assets/Python-Disable-App-Execution-Alias.png)
 - install Python 3 from here: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 - `python -m pip install mkdocs`
 - `python -m site --user-site` find your pip installation site and add it to your PATH environment variable
