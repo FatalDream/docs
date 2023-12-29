@@ -13,3 +13,7 @@ In the project folder:
 
 ### You are ready to develop!
 Use `mkdocs serve` to start the development version locally.
+
+## Update Dependencies
+
+```mkdocs get-deps > requirements.txt```
