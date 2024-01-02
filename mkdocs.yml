@@ -7,11 +7,11 @@ plugins:
           htmlmin_opts:
               remove_comments: true
     - git-revision-date-localized:
-          enabled: !ENV [CI, false]
+          #   enabled: !ENV [CI, false]
           enable_creation_date: true
           type: date
     - git-committers:
-          enabled: !ENV [CI, false]
+          #   enabled: !ENV [CI, false]
           repository: FatalDream/docs
           branch: main
 
@@ -65,6 +65,11 @@ nav:
     - Welcome: "index.md"
     - SecondCraft:
           - SecondCraft/getting-started.md
+          - Alternative Installation: SecondCraft/alternative-install.md
           - SecondCraft/server-ip.md
           - SecondCraft/dynmap.md
           - SecondCraft/fuel-efficency.md
+          - Voice Chat and Radios: SecondCraft/vc-radios.md
+          - Fuel Pumps: SecondCraft/fuelpumps.md
+          - Mine Location: SecondCraft/minelocation.md
+          - Donate: SecondCraft/donate.md

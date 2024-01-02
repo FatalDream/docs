@@ -25,6 +25,9 @@ Should your PC not meet these requirements, you can still proceed, however the g
 
 ## Modpack Installation
 
+!!! warning "Alternative Installation Method"
+    If you do not wish to or are unable to use the official CurseForge Launcher, you can use our [Alternative Installation Guide](alternative-install.md).
+
 !!! info "If you don't feel like reading, you can also watch this video:"
 
 <iframe width="1920" style="aspect-ratio: 16/9" src="https://www.youtube-nocookie.com/embed/O0JC8IJQ3tQ?si=VgwKP2voJ_VCwDEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
