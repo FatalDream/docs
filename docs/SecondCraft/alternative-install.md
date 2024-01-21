@@ -2,7 +2,7 @@
 
 In case you do not wish to or are unable to use the CurseForge launcher or a compatible alternative such as GDLauncher, we are making the Modpack available for download here:
 
-[[Google Drive Link]](https://drive.google.com/drive/folders/1WCr1lPNrRY3lOz3giE8-6gqRb_GAUfnC?usp=drive_link){target="_blank"}
+[[Google Drive Link]](https://drive.google.com/drive/folders/1cYQmy6FJ8s-b_lIJVZAT0ZyxNZmbE-Ix?usp=sharing){target="_blank"}
 
 !!! warning
     Please keep in mind that by opting out of using the CurseForge launcher, mod authors will not be rewarded for your downloads by CurseForge.
