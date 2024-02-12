@@ -33,7 +33,7 @@ Should your PC not meet these requirements, you can still proceed, however the g
 <iframe width="1920" style="aspect-ratio: 16/9" src="https://www.youtube-nocookie.com/embed/O0JC8IJQ3tQ?si=VgwKP2voJ_VCwDEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1. Go to the [CurseForge Download page](https://www.curseforge.com/download/app#download-options){target="_blank"} to download & install the CurseForge __*standalone*__ version for your OS.
-2. Click [here](https://www.curseforge.com/minecraft/modpacks/secondcraft/install/4981171){target="_blank"} to install our Modpack.
+2. Click [here](https://www.curseforge.com/minecraft/modpacks/secondcraft/install){target="_blank"} to install our Modpack.
 3. While the Modpack is downloading, in the CurseForge app, go to `My Modpacks`, right click on the installing SecondCraft pack, then select `Profile Options`.
 !!! warning "Memory Settings"
     Uncheck the box `Use System Memory Settings` and then adjust the slider based on our [Memory Advisor](memory-advisor.md).
