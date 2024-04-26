@@ -20,12 +20,15 @@ deactivate
 
 ### Install MkDocs dependencies
 In the project folder:
-- run `mkdocs get-deps`
-- run `./Install-Dependencies.ps1`
+- run `./Install-Dependencies.ps1` or `./install-dependencies.sh`
 
 ### You are ready to develop!
 Use `mkdocs serve` to start the development version locally.
 
 ## Update Dependencies
+`mkdocs get-deps > requirements.txt`  
+This might not use the latest versions!  
 
-```mkdocs get-deps > requirements.txt```
+So fix afterwards with:
+  
+`./Upgrade-PipPackages.ps1`

@@ -38,9 +38,8 @@ Should your PC not meet these requirements, you can still proceed, however the g
 !!! warning "Memory Settings"
     Uncheck the box `Use System Memory Settings` and then adjust the slider based on our [Memory Advisor](memory-advisor.md).
 
+!!! info
+    The server IP should be automatically added in the multiplayer menu.
+
 !!! success "All done!"
     You're all done and ready to join us in SecondCraft!
-
-!!! info
-    The server IP should be automatically added in the multiplayer menu.  
-    If not, here it is: `sc.fataldream.com`

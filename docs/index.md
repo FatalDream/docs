@@ -2,7 +2,7 @@
 
 This is an effort to provide help and documentation for common tasks and problems around the FatalDream landscape.
 
-For question or suggestions, please contact me on [Discord (click to open profile)](https://discord.com/users/174617873182883841) or DM me `@FatalMerlin`.
+<!-- For question or suggestions, please contact me on [Discord (click to open profile)](https://discord.com/users/174617873182883841) or DM me `@FatalMerlin`. -->
 
 ## Contributing
 
